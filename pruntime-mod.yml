@@ -156,7 +156,7 @@ services:
      - /var/khala-dev-node:/root/data
 
   pruntime:
-    image: phalanetwork/phala-pruntime
+    image: ghcr.io/phala-network/phala-pruntime:latest
     container_name: pruntime
     hostname: pruntime
     ports:
